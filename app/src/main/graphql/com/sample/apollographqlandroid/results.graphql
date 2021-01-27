@@ -1,0 +1,18 @@
+query Results {
+  characters{
+    info {
+      count
+    }
+    results {
+      name
+        origin{
+        name
+      }
+      episode{
+      name
+      }
+    	image
+      status
+    }
+  }
+}
